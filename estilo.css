@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'nintendo';
+    src: url(fontes/Pretendo.ttf);
+}
+@font-face {
+    font-family: snes;
+    src: url(fontes/dharma-gothic-e-regular.otf);
+}
+
+:root {
+    --corpo: #cfced3;
+    --logo: #99989e;
+    --yx: #b7b4e9;
+    --ba: #583c90;
+    --ss: #474747;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--ss);
+    min-height: 430px;
+}
+
+header {
+    background-color: var(--corpo);
+    padding-bottom: 30px;
+    /* box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); */
+}
+header h1 {
+    font-family: snes;
+    font-weight: normal;
+    text-align: center;
+    width: fit-content;
+    margin: 0px auto;
+    font-size: 64px;
+    font-style: italic;
+    color: var(--logo);
+    padding-top: 20px;
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); */
+}
+header p {
+    font-family: snes;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0px auto;
+    margin-top: -15px;
+    background-color: var(--logo);
+    color: var(--corpo);
+    width: fit-content;
+    padding: 0px 3px 0px 3px;
+    letter-spacing: 6px;
+    border-radius: 1px;
+    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
+}
+
+nav {
+    padding: 12px;
+    text-align: center;
+    background-color: var(--logo);
+    border: 2px solid var(--ss);
+}
+nav a {
+    text-decoration: none;
+    background-color: var(--corpo);
+    color: var(--ss);
+    padding: 2px 20px;
+    font-weight: bold;
+    border: 1px solid var(--ss);
+    border-radius: 5px;
+}
+nav a.yx:hover {
+    background-color: var(--yx);
+    color: var(--ba);
+}
+nav a.ba:hover {
+    background-color: var(--ba);
+    color: var(--yx);
+}
+
+main {
+    background-color: var(--ss);
+    margin: 0px auto;
+    /* max-width: 1000px;
+    min-width: 500px; */
+    min-height: 410px;
+}
+main div.logo img {
+    position: absolute;
+    width: 25%;
+    left: 6%;
+    top: 52%;
+}
+main div.snes img {
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    width: 60%;
+}
+
+footer {
+    background-color: var(--logo);
+    text-align: center;
+    padding: 10px;
+}
