@@ -185,6 +185,9 @@ main div.jogos div.nomeJogo {
     border: 1px solid var(--ss);
     text-transform: uppercase;
 }
+main div.jogos:hover {
+    box-shadow: 0px 0px 5px 1px var(--logoN);
+}
 
 footer {
     background-color: var(--logo);
