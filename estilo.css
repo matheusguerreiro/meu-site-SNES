@@ -27,15 +27,16 @@
     padding: 0px;
 }
 
+
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--yx);
 }
 
+
 header {
     background-color: var(--corpo);
     padding-bottom: 30px;
-    /* box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); */
 }
 header h1 {
     font-family: snes;
@@ -47,7 +48,6 @@ header h1 {
     font-style: italic;
     color: var(--logo);
     padding-top: 20px;
-    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); */
 }
 header p {
     font-family: snes;
@@ -61,14 +61,16 @@ header p {
     padding: 0px 3px 0px 3px;
     letter-spacing: 6px;
     border-radius: 1px;
-    /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
 }
+
 
 nav {
     padding: 12px;
     text-align: center;
     background-color: var(--logo);
     border: 2px solid var(--ss);
+    /* position: sticky;
+    top: 0px; */
 }
 nav a {
     text-decoration: none;
@@ -91,16 +93,97 @@ nav a.ba:hover {
     transition-duration: 0.125s;
     box-shadow: 0px 0px 5px 1px var(--logoN);
 }
+/* link Página ativa - link Página ativa */
+nav ul a.ativoyx {
+    background-color: var(--yx);
+}
+nav ul a.ativoba {
+    background-color: var(--ba);
+    color: var(--corpo);
+}
+/* ------------------------------------- */
 
 main {
     background-color: var(--corpo);
-    height: auto;
+    text-align: center;
 }
-main img {
+
+/* img SNES Home - img SNES Home */
+main img.imgsnesI {
     display: block;
     width: 75%;
     margin: 0px auto;
     padding: 40px 20px;
+}
+/* ----------------------------- */
+
+/* h2 Emuladores - h2 Emuladores */
+main h2.h2emuladores {
+    font-family: snes;
+    color: var(--logo);
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 3em;
+}
+/* ----------------------------- */
+
+main a {
+    text-decoration: none;
+}
+
+/* Snes9x - Snes9x - Snes9x - Snes9x */
+main a div.emuladorL {
+    display: inline-block;
+    background-color: var(--ss);
+    width: 200px;
+    margin: 40px 10px 40px 10px;
+    border-radius: 10px;
+}
+main a div.emuladorL img {
+    width: 90%;
+    margin: 6.5% 5% 6.5% 5%;
+}
+/* --------------------------------- */
+
+/* ZSNES - ZSNES - ZSNES - ZSNES */
+main a div.emuladorR {
+    display: inline-block;
+    background-color: var(--ss);
+    width: 200px;
+    margin: 40px 10px 40px 10px;
+    border-radius: 10px;
+}
+main a div.emuladorR img {
+    width: 90%;
+    margin: 5%;
+}
+/* ----------------------------- */
+
+/* hover Emuladores - hover Emuladores - hover Emu*/
+main a div.emuladorL:hover, div.emuladorR:hover {
+    box-shadow: 0px 0px 5px 1px var(--logoN);
+}
+/* ---------------------------------------------- */
+
+main div.jogos {
+    display: inline-table;
+    background-color: var(--logo);
+    margin: 40px;
+    width: 200px;
+    border: 1px solid var(--ss);
+    border-radius: 5px;
+    /* float: left; */
+}
+main div.jogos a img {
+    width: 100%;
+    height: auto;
+}
+main div.jogos div.nomeJogo {
+    background-color: var(--ss);
+    color: var(--corpo);
+    padding: 10px;
+    border: 1px solid var(--ss);
+    text-transform: uppercase;
 }
 
 footer {
@@ -111,4 +194,17 @@ footer {
     border: 2px solid var(--ss);
     padding: 4px;
     font-size: 20px;
+    /* position: fixed;
+    bottom: 0px;
+    width: 100%; */
 }
+
+/* link site Nintendo - link site Nintendo */
+footer a {
+    text-decoration: none;
+    color: var(--corpo);
+}
+footer a:hover {
+    color: var(--logoN);
+}
+/* --------------------------------------- */
