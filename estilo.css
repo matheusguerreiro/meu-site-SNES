@@ -107,6 +107,27 @@ main {
     background-color: var(--corpo);
     text-align: center;
 }
+main.historia {
+    background-color: var(--ss);
+}
+
+article {
+    background-color: var(--corpo);
+    max-width: 800px;
+    margin: 0px auto;
+}
+article h2 {
+    text-align: justify;
+    padding: 10px 40px;
+    color: var(--ss);
+}
+article p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 10px 40px;
+    line-height: 28px;
+    /* color: var(--ss); */
+}
 
 /* img SNES Home - img SNES Home */
 main img.imgsnesI {
@@ -124,6 +145,7 @@ main h2.h2emuladores {
     padding-top: 40px;
     font-weight: normal;
     font-size: 3em;
+    text-align: center;
 }
 /* ----------------------------- */
 
