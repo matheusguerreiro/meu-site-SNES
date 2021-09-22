@@ -126,6 +126,9 @@ article p {
     padding: 10px 40px;
     line-height: 28px;
 }
+article a {
+    font-weight: bold;
+}
 article a:hover {
     text-decoration: underline;
 }
