@@ -111,6 +111,16 @@ main.historia {
     background-color: var(--ss);
 }
 
+div.ver {
+    /* margin-top: 10px; */
+    background-color: var(--corpo);
+    color: var(--ss);
+    padding: 5px;
+    font-weight: bold;
+    line-height: 28px;
+    border-radius: 0px 0px 10px 10px;
+}
+
 article {
     background-color: rgb(223.5, 222.5, 227.5);
     max-width: 800px;
