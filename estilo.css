@@ -325,7 +325,7 @@ main div.jogos {
 }
 main div.jogos a img {
     width: 100%;
-    height: auto;
+    height: 140px;
 }
 main div.jogos div.nomeJogo {
     background-color: var(--ss);
