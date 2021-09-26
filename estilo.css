@@ -110,20 +110,6 @@ main {
 main.historia {
     background-color: var(--ss);
 }
-main.emuladores {
-    background-color: rgb(223.5, 222.5, 227.5);
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-table, tr, td {
-    border: none;
-    text-align: center;
-    margin: 0px auto;
-    border-spacing: 0px;
-    padding: 0px;
-    width: fit-content;
-}
 
 div.ver {
     /* margin-top: 10px; */
@@ -332,20 +318,8 @@ main a div.emuladorR img {
 }
 /* ----------------------------- */
 
-main a div.emuladorAnd {
-    display: inline-block;
-    background-color: var(--ss);
-    width: 200px;
-    margin: 0px auto;
-    border-radius: 10px;
-}
-main a div.emuladorAnd img {
-    width: 90%;
-    margin: 5%;
-}
-
 /* hover Emuladores - hover Emuladores - hover Emu*/
-main a div.emuladorL:hover, div.emuladorR:hover, div.emuladorAnd:hover {
+main a div.emuladorL:hover, div.emuladorR:hover {
     box-shadow: 0px 0px 5px 1px var(--logoN);
 }
 /* ---------------------------------------------- */
