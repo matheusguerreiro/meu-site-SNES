@@ -109,9 +109,12 @@ main {
 }
 main.historia {
     background-color: var(--ss);
+    padding-bottom: 10px;
 }
-
-div.ver {
+main.emuladores {
+    padding-bottom: 10px;
+}
+main.emuladores div.ver {
     /* margin-top: 10px; */
     background-color: var(--corpo);
     color: var(--ss);
@@ -119,6 +122,9 @@ div.ver {
     font-weight: bold;
     line-height: 28px;
     border-radius: 0px 0px 10px 10px;
+}
+main.jogos {
+    padding-bottom: 10px;
 }
 
 article {
